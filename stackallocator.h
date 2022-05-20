@@ -9,9 +9,6 @@
 #include <iterator>
 #include <type_traits>
 
-#ifndef UNTITLED_LIST___ALLOCATOR_H
-#define UNTITLED_LIST___ALLOCATOR_H
-
 
 template <class T, size_t N>
 class StackAllocator;
