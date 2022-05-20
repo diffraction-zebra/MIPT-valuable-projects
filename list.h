@@ -611,6 +611,3 @@ void List<T, allocator>::clean() {
     erase(begin());
   }
 }
-
-
-#endif
