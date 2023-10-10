@@ -9,8 +9,6 @@ shared_ptr
       + allocator, deleter
       + allocate_shared, make_shared
       + different structs for keep elements and pointers (single operator new call in each case)
-    - one commented constructor - I don't remember why I didn't remove it, maybe it's useful, but
-      tests think otherwise
     
 stack_allocator
 
@@ -27,4 +25,3 @@ variant
     If classic overloading not support any type there is a constructor for not-overloading construction 
     (also it check that only one type support this - otherwise CE).
     + supporting classic <variant> functions.
-    - exception safety is seems to exist, but it not works))
