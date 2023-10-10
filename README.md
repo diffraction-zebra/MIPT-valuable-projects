@@ -1,31 +1,6 @@
 # MIPT-valuable-projects
 
 Homework C++ course in MIPT.
-
-deque
-
-    + support 
-      - iterators
-      - exceptions safety
-      - validation pointers and references
-    - too many code copying
-    - not support allocator and move-semantics
-
-list
-
-    + support 
-      + iterators
-      + exception safety
-      + allocator,
-    - not support move-sematics
-  
-unordered_map
-
-    + it's working
-    + it's working with my list
-    + it's working with necessary asymptotics
-    + it's working with allocator and move-semantics
-    - don't look at the code, please
     
 shared_ptr
 
